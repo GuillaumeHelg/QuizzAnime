@@ -4,15 +4,177 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    >
+
+    <!-- fond d'écran   -->
+    <ImageView
+        android:id="@+id/fondStyler"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:src="@drawable/salut"
+        android:scaleType="centerCrop"/>
+
+<!-- Ton rectangle qui prend tout la fenetre du telephone   -->
+    <ImageView
+        android:id="@+id/fondViolet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rectangleviolet"
+        tools:layout_editor_absoluteX="0dp" />
+
+<!-- bouton parametre en haut a droite de la page-->
+    <Button
+        android:id="@+id/param"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:background="@drawable/ic_baseline_settings_24"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<!-- image du logo + nom appli    -->
+    <ImageView
+        android:id="@+id/rtitre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/recttitre"
+        android:layout_marginTop="28.4dp"
+        app:layout_constraintTop_toBottomOf="@+id/param" />
+
 
     <TextView
+        android:id="@+id/titre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+
+        android:text="@string/app_name"
+        android:textSize="50sp"
+        android:textColor="@color/logoColor"
+
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="7dp"
+        android:fontFamily="@font/kaushanregular"
+        app:fontFamily="@font/kaushanregular"
+        app:layout_constraintTop_toTopOf="@id/rtitre"
+        app:layout_constraintBottom_toBottomOf="@id/rtitre"
+        app:layout_constraintLeft_toLeftOf="@id/rtitre"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/group"
+
+        app:layout_constraintTop_toTopOf="@id/rtitre"
+        app:layout_constraintBottom_toBottomOf="@id/rtitre"
+        app:layout_constraintRight_toRightOf="@id/rtitre"
+        android:layout_marginEnd="15dp"/>
+
+ <!-- rectangle fond du menu   -->
+    <ImageView
+        android:id="@+id/rectangles"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/rectangles"
+        android:background="@drawable/rectngle"
+        app:layout_constraintTop_toBottomOf="@+id/titre"
+        tools:layout_editor_absoluteX="0dp"
+        android:contentDescription="@string/fond" />
+
+<!-- Titre du mode de jeu -->
+    <TextView
+        android:id="@+id/titre1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="@string/page_accueil_section_classique"
+        android:theme="@style/TitleStyle"
+        app:layout_constraintTop_toTopOf="@id/rectangles"
+        app:layout_constraintRight_toRightOf="@id/rectangles"
+        app:layout_constraintLeft_toLeftOf="@id/rectangles"/>
+
+
+    <!-- Bouton modifier les règles -->
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="6dp"
+
+        android:background="@drawable/ic_baseline_edit_note_24"
+        android:foregroundGravity="left"
+        app:layout_constraintRight_toRightOf="@id/rectangles"
+        app:layout_constraintTop_toTopOf="@id/rectangles"
+        android:onClick="affichePopUp"
+        />
+
+    <!-- All� a gauche -->
+    <Button
+        android:id="@+id/left"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/ic_baseline_chevron_left_24"
+
+        app:layout_constraintBottom_toBottomOf="@id/rectangles"
+        app:layout_constraintLeft_toLeftOf="@id/rectangles"
+        app:layout_constraintTop_toTopOf="@id/rectangles"/>
+
+    <!-- Alle a droite-->
+    <Button
+        android:id="@+id/right"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/ic_right"
+
+        app:layout_constraintBottom_toBottomOf="@id/rectangles"
+        app:layout_constraintRight_toRightOf="@id/rectangles"
+        app:layout_constraintTop_toTopOf="@id/rectangles"/>
+
+    <!-- Resume du mode de jeu -->
+    <TextView
+        android:id="@+id/resumeMode"
+        android:theme="@style/TexteChoixStyle"
+
+        android:layout_width="247dp"
+        android:layout_height="104dp"
+
+        app:layout_constraintTop_toTopOf="@id/rectangles"
+        app:layout_constraintBottom_toBottomOf="@id/rectangles"
+        app:layout_constraintRight_toRightOf="@id/rectangles"
+        app:layout_constraintLeft_toLeftOf="@id/rectangles"/>
+
+    <!--  record  -->
+    <TextView
+        android:id="@+id/record"
+        android:theme="@style/RecordStyle"
+
+        android:layout_width="115dp"
+        android:layout_height="23dp"
+
+        android:layout_marginVertical="24dp"
+
+        app:layout_constraintBottom_toBottomOf="@id/rectangles"
+        app:layout_constraintRight_toRightOf="@id/rectangles"
+        app:layout_constraintLeft_toLeftOf="@id/rectangles"/>
+
+    <!-- bouton commencer en bas de la page  // enlever le truc blanc qui apparait derriere le commencer -->
+    <Button
+        android:id="@+id/start"
+        android:layout_width="300dp"
+        android:layout_height="86dp"
+        android:background="@drawable/bouton_commencer"
+
+        android:layout_marginBottom="12dp"
+        android:text="@string/page_accueil_bouton_commencer"
+        android:textColor="@color/backgroundcolor"
+        android:textSize="35sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintLeft_toLeftOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

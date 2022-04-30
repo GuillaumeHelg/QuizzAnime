@@ -1,5 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/guill/AndroidStudioProjects/QuizzAnime/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.172" />
+        <entry key="..\:/Users/guill/AndroidStudioProjects/QuizzAnime/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.172" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2525" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable-v24/ic_play.xml" value="0.2525" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable-v24/ic_replay.xml" value="0.2525" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable-v24/ic_right.xml" value="0.2525" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/blancla.xml" value="0.1515" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/bouton_applique.xml" value="0.1675" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/bouton_appliquer.xml" value="0.1725" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/bouton_commencer.xml" value="0.1725" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/boutonapplique.xml" value="0.152" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/boutonstart.xml" value="0.1" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/circle.xml" value="0.2" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/custom_circle_seekbar.xml" value="0.1675" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/fondregle.xml" value="0.214" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1725" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/ic_baseline_chevron_left_24.xml" value="0.1375" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/ic_baseline_edit_note_24.xml" value="0.1395" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.1725" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/ic_baseline_not_started_24.xml" value="0.214" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/ic_baseline_pause_24.xml" value="0.214" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/ic_baseline_replay_24.xml" value="0.214" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.2525" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.121" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/ic_leftc.xml" value="0.1" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/ic_right.xml" value="0.1675" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/music.xml" value="0.214" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/popup_background.xml" value="0.214" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/rougela.xml" value="0.1" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/seek.xml" value="0.2385" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/startbutton.xml" value="0.103" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/drawable/vertla.xml" value="0.1" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/layout-v26/activity_popup_regle.xml" value="0.25" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/layout/activity_fin1.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/layout/activity_page_jeu1.xml" value="0.1" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/layout/activity_param1.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/layout/activity_pop_up_replay.xml" value="0.25" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/layout/activity_popup_regle.xml" value="0.4" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/layout/finpartie.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/layout/pagejeu.xml" value="0.2" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/layout/param.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/layout/salut.xml" value="0.25" />
+        <entry key="..\:/Users/guill/Downloads/QuizzAnime/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.121" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

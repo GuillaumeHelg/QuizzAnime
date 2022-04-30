@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PopUpReplay">
+
+    <!--  On utilise un fond blanc  -->
+    <ImageView
+        android:id="@+id/fondReplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fond_pop_up_rejouer"
+        android:background="@color/trans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/lescore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/roboto_black"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:text="@string/score"
+        android:textColor="@color/backgroundcolor"
+        app:layout_constraintLeft_toLeftOf="@id/fondReplay"
+        app:layout_constraintRight_toRightOf="@id/fondReplay"
+        app:layout_constraintTop_toTopOf="@id/fondReplay" />
+
+
+    <TextView
+        android:id="@+id/lerecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pop_replay_record"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/TextColor"
+        app:layout_constraintRight_toRightOf="@id/fondReplay"
+        app:layout_constraintLeft_toLeftOf="@id/fondReplay"
+        app:layout_constraintTop_toBottomOf="@id/lescore"/>
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/ic_baseline_replay_24"
+        app:layout_constraintBottom_toBottomOf="@id/fondReplay"
+        app:layout_constraintLeft_toLeftOf="@id/fondReplay"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/ic_baseline_menu_24"
+        app:layout_constraintBottom_toBottomOf="@id/fondReplay"
+        app:layout_constraintRight_toRightOf="@id/fondReplay"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="30dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

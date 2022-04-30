@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:shape="rectangle"
+    android:width="300dp"
+    android:height="86dp"
+    tools:ignore="VectorRaster">
+
+    <solid android:color="@color/Owhite"/>
+
+    <corners android:radius="23dp" />
+
+
+</shape>

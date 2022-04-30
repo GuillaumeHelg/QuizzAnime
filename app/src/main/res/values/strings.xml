@@ -1,3 +1,43 @@
 <resources>
-    <string name="app_name">QuizzAnime</string>
+    <string name="app_name">"QuizzAnime"</string>
+
+    <!-- Page d'acceuil -->
+    <string name="page_accueil_titre">"QUIZZANIME"</string>
+    <string name="page_accueil_section_classique">"CLASSIQUE"</string>
+    <string name="page_accueil_section_survie">"SURVIE"</string>
+    <string name="page_accueil_section_1_seconde">"1 SECONDE"</string>
+    <string name="page_accueil_section_aleatoire">"ALEATOIRE"</string>
+    <string name="page_accueil_section_classique_texte">"Trouvez le maximum \nd'opening sur les \n50 proposés"</string>
+    <string name="page_accueil_section_survie_texte">"Trouvez le maximum d\'openings avec un nombre limité"</string>
+    <string name="page_accueil_section_1_seconde_texte">"Vous n'avez qu'une seconde pour trouver l\'opening"</string>
+    <string name="page_accueil_section_aleatoire_texte">"Les openings a trouver sont dans un ordre aléatoire"</string>
+    <string name="page_accueil_record">"Record : %s"</string>
+    <string name="page_accueil_bouton_commencer">"Commencer"</string>
+
+    <string name="score">"%d"</string>
+    <string name="pop_replay_record">"record : %d"</string>
+
+
+    <string name="tempsString">"temps : %ds"</string>
+    <string name="vieString">"vie : %d"</string>
+
+    <!-- Page jeu -->
+    <string name="page_jeu_entete_menu">"MENU"</string>
+    <string name="page_jeu_entete_score">"SCORE : %d"</string>
+    <string name="page_jeu_entete_vie">"VIES : %d"</string>
+
+    <!-- Page parametre -->
+    <string name="page_parametre_titre">"PARAMETRE"</string>
+    <string name="page_parametre_record">"Vos Records"</string>
+    <string name="page_parametre_etoile">"Mettez nous 5 étoiles"</string>
+    <string name="page_parametre_credit">"Credits"</string>
+
+    <!-- Page fin de partie -->
+    <string name="page_fin_record">"Record : "</string>
+    <string name="page_fin_regle_regle">"Règles"</string>
+    <string name="page_fin_appliquer">"Appliquer"</string>
+
+    <string name="exemplebouton">"The quintessential quintuplet"</string>
+    <string name="fond">fond</string>
+
 </resources>

@@ -7,4 +7,15 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="trans">#00FFFFFF</color>
+    <color name="Owhite">#79FFFFFF</color>
+    <color name="PrimaryColor">#BC02FE</color>
+    <color name="SucessColor">#00F018</color>
+    <color name="AlertColor">#ED0000</color>
+    <color name="backgroundcolor">#9100C5</color>
+    <color name="TextColor">#D55CFF</color>
+    <color name="TitleColor">#03FFFF</color>
+    <color name="logoColor">#55BFE8</color>
+    <color name="barrehaut">#85000000</color>
+    <color name="paramfond">#383838</color>
 </resources>

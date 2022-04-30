@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apps="http://schemas.android.com/apk/com.devadvance.circulartest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <!-- fond d'écran   -->
+    <ImageView
+        android:id="@+id/fondStyler"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:src="@drawable/salut"
+        android:scaleType="centerCrop"/>
+
+    <!-- Ton rectangle qui prend tout la fenetre du telephone   -->
+
+    <ImageView
+        android:id="@+id/fondViolet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rectangleviolet"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageView
+        android:id="@+id/haut"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:background="@color/barrehaut"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/flechess"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_baseline_chevron_left_24"
+        android:backgroundTint="@color/white"
+        app:layout_constraintTop_toTopOf="@id/haut"
+        app:layout_constraintBottom_toBottomOf="@id/haut"
+        app:layout_constraintLeft_toLeftOf="@id/haut"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginRight="16dp"
+        android:text="@string/page_jeu_entete_menu"
+        app:layout_constraintBottom_toBottomOf="@id/haut"
+        app:layout_constraintLeft_toRightOf="@id/flechess"
+        app:layout_constraintTop_toTopOf="@id/haut"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/scorer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginRight="16dp"
+        android:text="@string/page_jeu_entete_score"
+        app:layout_constraintBottom_toBottomOf="@id/haut"
+        app:layout_constraintRight_toRightOf="@id/haut"
+        app:layout_constraintLeft_toLeftOf="@id/haut"
+
+        app:layout_constraintTop_toTopOf="@id/haut"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/life"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginRight="16dp"
+        android:text="@string/page_jeu_entete_vie"
+        app:layout_constraintBottom_toBottomOf="@id/haut"
+        app:layout_constraintRight_toRightOf="@id/haut"
+        app:layout_constraintTop_toTopOf="@id/haut"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/startmusic"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/music"/>
+
+<!--    <SeekBar-->
+<!--        android:id="@+id/progress_music_bar"-->
+<!--        android:layout_width="290dp"-->
+<!--        android:layout_height="290dp"-->
+<!--        android:indeterminate="false"-->
+<!--        android:progressDrawable="@drawable/circle"-->
+<!--        tools:progress="100"-->
+<!--        app:layout_constraintLeft_toLeftOf="@id/startmusic"-->
+<!--        app:layout_constraintRight_toRightOf="@id/startmusic"-->
+<!--        app:layout_constraintBottom_toBottomOf="@id/startmusic"-->
+<!--        app:layout_constraintTop_toTopOf="@id/startmusic"/>-->
+
+
+
+
+    <Button
+        android:id="@+id/choix1"
+        android:background="@drawable/blancla"
+
+        android:textColor="@color/black"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:text="@string/exemplebouton"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/startmusic"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/choix2"
+        android:text="@string/exemplebouton"
+        android:background="@drawable/blancla"
+        android:textColor="@color/black"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/choix1"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/choix3"
+        android:text="@string/exemplebouton"
+        android:background="@drawable/blancla"
+        android:textColor="@color/black"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/choix2"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/choix4"
+        android:text="@string/exemplebouton"
+        android:background="@drawable/blancla"
+        android:textColor="@color/black"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/choix3"
+        android:layout_marginTop="20dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
